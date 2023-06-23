@@ -1,0 +1,111 @@
+.navbar {
+  background-color: #f2f2f2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Arial Black", sans-serif;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Arial Black", sans-serif;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.centered-image {
+  border: 1px solid black;
+  width: 800px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 10px;
+}
+
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  font-size: 75px;
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "Arial Black", sans-serif;
+}
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+.description {
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.recipe-info {
+  margin-left: 10px;
+}
+
+.recipe-info h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.recipe-info p {
+  margin: 5px 0;
+}
+
+.recipe-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.audio-player {
+  display: block;
+  margin: 0 auto;
+}
+
+
+#validation {
+  text-align: center;
+}
+

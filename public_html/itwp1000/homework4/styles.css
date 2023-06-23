@@ -63,7 +63,7 @@ p, div {
  .responsive {
     max-width: 100%;
     height: auto;
-    border: 1px solid #51471A;
+    border: 1px solid hsl(49, 51%, 21%);
     border-radius: 10px;
  }
  
