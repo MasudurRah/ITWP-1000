@@ -3344,6 +3344,59 @@ body.mobile-nav-active #mobile-nav-toggle {
   /* Microsoft Edge */
   color: #777777;
   font-weight: 300; }
+
+.rules_css {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  color: #000;
+}
+.ol_rulecss {
+  counter-reset: rule-counter;
+        list-style-type: none;
+        padding: 20px;
+        color: #000;
+}
+
+.li_rule {
+        counter-increment: rule-counter;
+        content: counter(rule-counter) ".";
+        font-weight: bold;
+        margin-right: 5px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgclass {
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+.bdy1 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form2 {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
 @media (max-width: 991.98px) {
   .single-footer-widget {
     margin-bottom: 30px; } }
